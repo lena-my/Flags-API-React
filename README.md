@@ -91,3 +91,8 @@ rsc
 ```shell script
 npm i -g react-router-dom sass
 ```
+
+### install axios
+```shell script
+npm i axios
+```
