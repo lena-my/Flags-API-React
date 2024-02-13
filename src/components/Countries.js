@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Card from './Card';
 
 const Countries = () => {
     const [data, setData] = useState([])
@@ -18,7 +19,9 @@ const Countries = () => {
             <h1>COUNTRIES</h1>
             <ul>
                 {
-                    data.map((country, index)=> <li key={index}>{country.translations.fra.common}</li>)
+                    data.map((country, index)=> (
+                        <Card/>
+                    ))
                 }
             </ul>
         </div>
