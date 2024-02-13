@@ -20,7 +20,7 @@ const Countries = () => {
             <ul>
                 {
                     data.map((country, index)=> (
-                        <Card/>
+                        <Card key={index}/>
                     ))
                 }
             </ul>
