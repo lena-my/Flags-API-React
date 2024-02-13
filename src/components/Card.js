@@ -1,6 +1,7 @@
 import React from "react";
 
-const Card = () => {
+const Card = (propos) => {
+    console.log(propos.country)
   return (
     <li className="card">
       <div className="infos">
