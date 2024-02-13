@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Countries = () => {
     const [data, setData] = useState([])
@@ -17,7 +18,7 @@ const Countries = () => {
             <h1>COUNTRIES</h1>
             <ul>
                 {
-                    hello
+                    data.map((country)=> <li>{country.translations.fra.common}</li>)
                 }
             </ul>
         </div>
