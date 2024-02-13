@@ -22,7 +22,7 @@ const Countries = () => {
           min="1"
           max="250"
           defaultValue={rangeValue}
-          onChange={(e) => console.log(e.target.value)}
+          onChange={(e) => setRangeValue(e.target.value)}
         />
       </ul>
       <ul>
