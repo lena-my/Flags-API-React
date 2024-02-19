@@ -1,5 +1,4 @@
-## npx create-react-app nome-do-projeto
-
+## npx create-react-app name off the project
 
 ## Recommended Plugins
 - Simples React snippets
