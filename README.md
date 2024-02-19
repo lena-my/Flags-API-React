@@ -1,5 +1,7 @@
 
 # App Country Flags using API countries
+App developped with React that shows the flags, the name of the country, their capital and the population. 
+Data are provided from countries API.
 
 ## Table of contents
 - [Built with](#built-with)
